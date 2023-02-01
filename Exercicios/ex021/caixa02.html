@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: gray;
+            margin: 0;
+        }
+        header{
+            background-color: rgb(210, 230, 232 );
+            padding: 10px;
+            margin: 10px;
+        }
+
+        nav{
+            background-color: rgb(198, 237, 237);
+            padding:3px;
+            box-shadow: 1px 2px 1px  rgba(0, 0, 0, 0.304);
+        }
+
+        main{
+            background-color:aliceblue;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px;
+            box-shadow: 1px 1px 1px  rgba(0, 0, 0, 0.54);
+        }
+
+        article{
+            background-color: rgb(210, 230, 232)   
+        }
+        article > aside{
+            background-color: rgb(203, 227, 249);
+        }
+        footer{
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 2px;
+            margin: 00px;
+        }
+        footer > p {
+            margin:0px;
+        }
+        div#bola{
+            height: 100px;
+            width: 100px;
+            margin: 10px;
+            background-color: white;
+            border-radius: 50%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu Site</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+    
+    <main>
+        <section id="Assuntos"> 
+
+        </section>
+        <section id="Noticias">
+            <article>
+                <h2>Noticias sobre o Brasil</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure ea, architecto odio itaque nemo eum similique numquam voluptate? Debitis aut minima pariatur atque, a magnam facilis consequuntur iusto sed cum! Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem necessitatibus quod, dicta alias magnam aspernatur dignissimos voluptatum est voluptate pariatur consequatur dolor laudantium, quae nihil eaque sit debitis ducimus explicabo?</p>
+                <aside>
+                    <p>Artigo escrito por ERIk WILLIAN</p>
+                </aside>
+            </article>
+        </section>
+
+    </main>
+
+    <footer>
+      <p>Desenvolvido por Erik Tontini</p>
+    </footer>
+    <div id="bola"></div>
+</body>
+</html>
