@@ -3,4 +3,4 @@
 
 Aprendendo a criar sites
 
-<a href="https://eriktontini.github.io/HTML-Css/exercicios/ex001/index.html "> Executar o exercicio 001 </a>
+<a href="https://eriktontini.github.io/HTML-Css/Exercicios/ex001/index.html">Executar o exercicio 001</a>
